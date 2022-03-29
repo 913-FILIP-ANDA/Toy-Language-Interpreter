@@ -1,0 +1,1262 @@
+Program id: 1
+ -------- Execution Stack -------- 
+[ref int v2 ; ref int v3 ; int cnt ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3)), ref int v1]
+ -------- Symbol  Table -------- 
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[ref int v2 ; ref int v3 ; int cnt ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3))]
+ -------- Symbol  Table -------- 
+v1->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[ref int v3 ; int cnt ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3)), ref int v2]
+ -------- Symbol  Table -------- 
+v1->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[ref int v3 ; int cnt ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3))]
+ -------- Symbol  Table -------- 
+v1->0 -> int
+v2->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[int cnt ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3)), ref int v3]
+ -------- Symbol  Table -------- 
+v1->0 -> int
+v2->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[int cnt ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3))]
+ -------- Symbol  Table -------- 
+v1->0 -> int
+v2->0 -> int
+v3->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3)), int cnt]
+ -------- Symbol  Table -------- 
+v1->0 -> int
+v2->0 -> int
+v3->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3))]
+ -------- Symbol  Table -------- 
+cnt->0
+v1->0 -> int
+v2->0 -> int
+v3->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[new(v2, 3) ; new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3)), new(v1, 2)]
+ -------- Symbol  Table -------- 
+cnt->0
+v1->0 -> int
+v2->0 -> int
+v3->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[new(v2, 3) ; new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3))]
+ -------- Symbol  Table -------- 
+cnt->0
+v1->1 -> int
+v2->0 -> int
+v3->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3)), new(v2, 3)]
+ -------- Symbol  Table -------- 
+cnt->0
+v1->1 -> int
+v2->0 -> int
+v3->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[new(v3, 4) ; NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3))]
+ -------- Symbol  Table -------- 
+cnt->0
+v1->1 -> int
+v2->2 -> int
+v3->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3)), new(v3, 4)]
+ -------- Symbol  Table -------- 
+cnt->0
+v1->1 -> int
+v2->2 -> int
+v3->0 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[NewBarrier(cnt, readHeap(v2)) ; fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3))]
+ -------- Symbol  Table -------- 
+cnt->0
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3)), NewBarrier(cnt, readHeap(v2))]
+ -------- Symbol  Table -------- 
+cnt->0
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))) ; fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[]
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3)), fork(BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1)))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[]
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))) ; BarrierAwait(cnt) ; print(readHeap(v3))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[]
+
+ ------------------------------- 
+
+
+Program id: 2
+ -------- Execution Stack -------- 
+[BarrierAwait(cnt) ; writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[]
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[BarrierAwait(cnt) ; print(readHeap(v3)), fork(BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2)))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[]
+
+ ------------------------------- 
+
+
+Program id: 2
+ -------- Execution Stack -------- 
+[writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1)), BarrierAwait(cnt)]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[]
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[BarrierAwait(cnt) ; print(readHeap(v3))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2]
+
+ ------------------------------- 
+
+
+Program id: 2
+ -------- Execution Stack -------- 
+[writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1)), BarrierAwait(cnt)]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2]
+
+ ------------------------------- 
+
+
+Program id: 3
+ -------- Execution Stack -------- 
+[BarrierAwait(cnt) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2]
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[print(readHeap(v3)), BarrierAwait(cnt)]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2]
+
+ ------------------------------- 
+
+
+Program id: 2
+ -------- Execution Stack -------- 
+[writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1)), BarrierAwait(cnt)]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2]
+
+ ------------------------------- 
+
+
+Program id: 3
+ -------- Execution Stack -------- 
+[writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2)), BarrierAwait(cnt)]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2]
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[print(readHeap(v3)), BarrierAwait(cnt)]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 2
+ -------- Execution Stack -------- 
+[writeHeap(v1, readHeap(v1) MULTIPLICATION 10) ; print(readHeap(v1))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 3
+ -------- Execution Stack -------- 
+[writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2)), BarrierAwait(cnt)]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[print(readHeap(v3))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 2
+ -------- Execution Stack -------- 
+[print(readHeap(v1)), writeHeap(v1, readHeap(v1) MULTIPLICATION 10)]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 3
+ -------- Execution Stack -------- 
+[writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->2
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 1
+ -------- Execution Stack -------- 
+[]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+4
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->20
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 2
+ -------- Execution Stack -------- 
+[print(readHeap(v1))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+4
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->20
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 3
+ -------- Execution Stack -------- 
+[writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2)), writeHeap(v2, readHeap(v2) MULTIPLICATION 10)]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+4
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->20
+3->4
+2->3
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 2
+ -------- Execution Stack -------- 
+[]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+4
+20
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->20
+3->4
+2->30
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 3
+ -------- Execution Stack -------- 
+[writeHeap(v2, readHeap(v2) MULTIPLICATION 10) ; print(readHeap(v2))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+4
+20
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->20
+3->4
+2->30
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 3
+ -------- Execution Stack -------- 
+[print(readHeap(v2)), writeHeap(v2, readHeap(v2) MULTIPLICATION 10)]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+4
+20
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->20
+3->4
+2->30
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 3
+ -------- Execution Stack -------- 
+[print(readHeap(v2))]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+4
+20
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->20
+3->4
+2->300
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
+Program id: 3
+ -------- Execution Stack -------- 
+[]
+ -------- Symbol  Table -------- 
+cnt->1
+v1->1 -> int
+v2->2 -> int
+v3->3 -> int
+
+ -------- Output Console-------- 
+4
+20
+300
+
+ -------- File Table-------- 
+
+ -------- Heap -------- 
+1->20
+3->4
+2->300
+
+ -------- Lock Table -------- 
+
+ -------- Latch Table -------- 
+
+ -------- Toy Semaphore Table -------- 
+
+ -------- Count Semaphore Table -------- 
+
+ -------- Barrier Table -------- 
+1->3=[2, 1, 3]
+
+ ------------------------------- 
+
+
